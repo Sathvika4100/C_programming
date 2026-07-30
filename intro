@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+    int num1,num2;
+    printf("Enter value for num1:");
+    scanf("%d",&num1);
+    printf("Enter value for num2:");
+    scanf("%d",&num2);
+    printf("%d + %d = %d",num1,num2,num1+num2);
+    printf("\nEnter value for num1:");
+    scanf("%d",&num1);
+    printf("Enter value for num2:");
+    scanf("%d",&num2);
+    printf("%d - %d = %d",num1,num2,num1 - num2);
+    printf("\nEnter value for num1:");
+    scanf("%d",&num1);
+    printf("Enter value for num2:");
+    scanf("%d",&num2);
+    printf("%d * %d = %d",num1,num2,num1*num2);
+    printf("\nEnter value for num1:");
+    scanf("%d",&num1);
+    printf("Enter value for num2:");
+    scanf("%d",&num2);
+    printf("%d / %d = %d",num1,num2,num1 / num2);
+    
+    return 0;
+    
+}
