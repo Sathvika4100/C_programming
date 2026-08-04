@@ -6,7 +6,7 @@ int main() {
     printf("Enter the age : ");
     scanf("%d",&age);
     
-    if(age > 0 && age <= 20){
+    if(age >= 0 && age <= 20){
         printf("Child");
     }else if(age > 20 && age <= 40){
         printf("Adult");
